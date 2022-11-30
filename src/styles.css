@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+
+a {
+  color: white;
+}
+
+code {
+  color: white;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+header {
+  font-weight: 100;
+}
+
+body{
+  background-image: url('https://dynamicmedia.livenationinternational.com/a/s/a/c9009468-9f3c-4dc4-81b4-06ec2e13823e.png?auto=webp&width=1507.2');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+  font: 105% arial;
+  text-align:justify;
+}
+
+.titulo
+{
+  font-family: 'Potta One', cursive, strong;
+  text-align: center;
+  background-color: maroon;
+}
+
+.titulo1
+{
+  font-family: 'Potta One', cursive, strong;
+  text-align: left;
+  background-color: maroon;
+}
+
+.img
+{
+  background-image: url('https://www.rockandpop.cl/wp-content/uploads/2022/10/Noticias-69.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+table th {
+  text-align: center;
+  color: white;
+}
+
+table td
+{
+  text-align: center;
+  color: white;
+}
+
+.titulo2
+{
+  background-color: rgba(0, 0, 0, 0.333) 
+}
+
+
+

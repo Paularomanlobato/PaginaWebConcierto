@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="tableLabel" class = "titulo">Entradas Conciertos</h1>
+  <br>
+  <p *ngIf="!forecasts"><em>Loading...</em></p>
+  
+  <table class="table table-striped table-none">
+    <thead>
+      <tr>
+        <th scope="col">Fecha del concierto</th>
+        <th scope="col">Ciudad</th>
+        <th scope="col">Número de asiento</th>
+        <th scope="col">Precio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1/01/2023</td>
+        <td>Málaga</td>
+        <td>123</td>
+        <td>80€</td>
+      </tr>
+      <tr>
+        <td>24/02/2023</td>
+        <td>Madrid</td>
+        <td>234</td>
+        <td>65€</td>
+      </tr>
+      <tr>
+        <td>10/03/2023</td>
+        <td>Barcelona</td>
+        <td>60</td>
+        <td>150€</td>
+      </tr>
+      <tr>
+        <td>15/04/2023</td>
+        <td>Sevilla</td>
+        <td>78</td>
+        <td>100€</td>
+      </tr>
+      <tr>
+        <td>18/06/2023</td>
+        <td>Málaga</td>
+        <td>148</td>
+        <td>89€</td>
+      </tr>
+      <tr>
+        <td>05/08/2023</td>
+        <td>Granada</td>
+        <td>39</td>
+        <td>50€</td>
+      </tr>
+      <tr>
+        <td>24/10/2023</td>
+        <td>Madrid</td>
+        <td>200</td>
+        <td>120€</td>
+      </tr>  
+    </tbody>
+  </table> 
+  <br>
+  <h5 class = "titulo1">Canciones recomendadas</h5>
+  <li class = titulo2><a href='https://www.youtube.com/watch?v=7wtfhZwyrcc'>Believer Imagine Dragons</a></li>
+  <li class = titulo2><a href='https://www.youtube.com/watch?v=TO-_3tck2tg'>Bones Imagine Dragons</a></li>
+  <li class = titulo2><a href='https://www.youtube.com/watch?v=ktvTqknDobU'>Radioactive Imagine Dragons</a></li>
+</body>
+</html>
+
+
+
